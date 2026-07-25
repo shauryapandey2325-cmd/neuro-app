@@ -1416,6 +1416,9 @@ const openSettings = () => {
             <button className="nr-tap" onClick={saveSettings} style={{ ...btn(stSaved ? C.calm : C.brand), marginTop: 8 }}>
               {stSaved ? "Saved ✓" : "Save changes"}
             </button>
+            <button className="nr-tap" onClick={logOut} style={{ width: "100%", display: "flex", alignItems: "center", justifyContent: "center", gap: 8, background: "none", border: `1px solid ${C.line}`, borderRadius: 14, padding: "12px 0", marginTop: 10, cursor: "pointer", fontWeight: 700, fontSize: 13.5, color: C.overload }}>
+              Log Out
+            </button>
           </div>
           </div>
         )}
